@@ -12,9 +12,17 @@
   },
   "keywords": [],
   "author": "",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/B2DaRice/ws-web/issues"
   },
-  "homepage": "https://github.com/B2DaRice/ws-web#readme"
+  "homepage": "https://github.com/B2DaRice/ws-web#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
 }
