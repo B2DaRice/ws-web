@@ -6,6 +6,7 @@ class Header extends Component {
 		return (
 			<div>
 				<header className="App-header">
+					<img src="/src/images/Logo.png" className="App-logo" alt="logo" />
 					<h1 className="App-title">Wookiee Serenade</h1>
 				</header>
 			</div>
