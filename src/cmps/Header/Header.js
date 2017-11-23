@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
+import Menu, {SubMenu, MenuItem} from 'rc-menu';
 import './Header.css';
 
 class Header extends Component {
 	render() {
 		return (
-			<div>
+			<div className="header-container">
+				<div className="header-background">
+				</div>
 				<header className="App-header">
-					<img src="/src/images/Logo.png" className="App-logo" alt="logo" />
-					<h1 className="App-title">Wookiee Serenade</h1>
+					<img src="/images/Logo.png" className="ws-logo pull-left" alt="logo" />
+					<div className="nav-menu pull-right">
+						<Menu>
+							<MenuItem label="Gallery">gallery</MenuItem>
+						</Menu>
+
+					</div>
+					<img src="/images/Wookiee_large.png" className="lute-wookiee pull-right" alt="mascot" />
 				</header>
 			</div>
 		);

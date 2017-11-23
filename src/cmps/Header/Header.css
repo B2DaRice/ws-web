@@ -1,0 +1,40 @@
+.header-container {
+	background-color: #111;
+	height: 100px;
+}
+
+.header-background {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("Characters.png");
+	background-size: cover;
+	background-position: 0 -250px;
+	opacity: 0.25;
+	overflow: hidden;
+}
+
+
+.App-header {
+	height: 100%;
+	padding: 20px;
+	color: white;
+	z-index: 1;
+}
+
+.ws-logo {
+	height: 50px;
+}
+
+.lute-wookiee {
+	position: relative;
+	height: 95px;
+	bottom: 3px;
+	right: -20px;
+}
+
+.nav-menu {
+	font-size: 15pt;
+}
