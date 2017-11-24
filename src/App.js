@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Router from "./cmps/Router/Router";
 import ReactFontFace from 'react-font-face';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Unik from './unik2.ttf';
 
 const styleConfig = {
@@ -11,9 +12,11 @@ const styleConfig = {
 class App extends Component {
   render() {
     return (
-      <div className="App" style={styleConfig}>
-        <Router/>
-      </div>
+      <MuiThemeProvider>
+        <div className="App" style={styleConfig}>
+          <Router/>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }

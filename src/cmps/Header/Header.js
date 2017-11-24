@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Menu, {SubMenu, MenuItem} from 'rc-menu';
 import './Header.css';
 
 class Header extends Component {
@@ -10,13 +9,13 @@ class Header extends Component {
 				</div>
 				<header className="App-header">
 					<img src="/images/Logo.png" className="ws-logo pull-left" alt="logo" />
+					{/*<img src="/images/name_tag.png" className="name-tag"/>*/}
+					<div className="lute-wookiee-container pull-right">
+						<img src="/images/Wookiee.png" className="lute-wookiee" alt="mascot" />
+					</div>
 					<div className="nav-menu pull-right">
-						<Menu>
-							<MenuItem label="Gallery">gallery</MenuItem>
-						</Menu>
 
 					</div>
-					<img src="/images/Wookiee_large.png" className="lute-wookiee pull-right" alt="mascot" />
 				</header>
 			</div>
 		);

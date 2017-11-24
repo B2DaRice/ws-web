@@ -1,6 +1,7 @@
 .header-container {
 	background-color: #111;
 	height: 100px;
+	z-index: 2;
 }
 
 .header-background {
@@ -11,30 +12,35 @@
 	padding: 0;
 	background: url("Characters.png");
 	background-size: cover;
-	background-position: 0 -250px;
+	background-position: 0 -270px;
 	opacity: 0.25;
 	overflow: hidden;
 }
 
+.name-tag {
+	height: 50px;
+}
 
 .App-header {
 	height: 100%;
-	padding: 20px;
+	padding: 0 20px 0 20px;
 	color: white;
 	z-index: 1;
 }
 
 .ws-logo {
+	margin: 20px 0 0 0;
 	height: 50px;
 }
 
-.lute-wookiee {
+.lute-wookiee-container {
 	position: relative;
-	height: 95px;
-	bottom: 3px;
-	right: -20px;
+	height: 100%;
 }
 
-.nav-menu {
-	font-size: 15pt;
+.lute-wookiee {
+	position: absolute;
+	height: 90%;
+	bottom: 0;
+	right: 0;
 }
